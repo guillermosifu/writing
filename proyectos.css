@@ -1,0 +1,414 @@
+
+.content-proyectos{
+    width: 75em;
+    height: 44.4em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 13em);
+    grid-gap: 20px;
+    margin: auto;
+    margin-bottom: 5em;
+}
+
+.content-proyectos .caja1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-color: #F78F12;
+    border-radius: 3px;
+    position: relative;
+    cursor: pointer;
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+
+.content-proyectos .caja1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content-proyectos .caja1:hover::after{
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+}
+
+.content-proyectos .caja1::after{
+    content: "Gaming";
+    font-size: 2.3rem;
+    color: white;
+    background: rgba(247, 143, 18, 0.6);
+    font-family: 'Lobster', cursive;
+    position: absolute;
+    inset: 0;
+    display: -ms-grid;
+    display: grid;
+    place-items: center;
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+    transition: transform 0.3s, -webkit-transform 0.3s;
+    z-index: 1000;
+}
+
+.content-proyectos .caja2{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background-color: #F78F12;
+    border-radius: 3px;
+    position: relative;
+    cursor: pointer;
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+
+.content-proyectos .caja2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content-proyectos .caja2:hover::after{
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+}
+
+.content-proyectos .caja2::after{
+    content: "Rick & morty";
+    font-size: 2.3rem;
+    color: white;
+    background: rgba(247, 143, 18, 0.6);
+    font-family: 'Lobster', cursive;
+    position: absolute;
+    inset: 0;
+    display: -ms-grid;
+    display: grid;
+    place-items: center;
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+    transition: transform 0.3s, -webkit-transform 0.3s;
+    z-index: 1000;
+}
+
+
+.content-proyectos .caja3{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    background-color: #F78F12;
+    border-radius: 3px;
+    position: relative;
+    cursor: pointer;
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+
+.content-proyectos .caja3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content-proyectos .caja3:hover::after{
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+}
+
+.content-proyectos .caja3::after{
+    content: "Buscado Github";
+    font-size: 2.3rem;
+    color: white;
+    background: rgba(247, 143, 18, 0.6);
+    font-family: 'Lobster', cursive;
+    position: absolute;
+    inset: 0;
+    display: -ms-grid;
+    display: grid;
+    place-items: center;
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+    transition: transform 0.3s, -webkit-transform 0.3s;
+    z-index: 1000;
+}
+
+.content-proyectos .caja4{
+    background-color: #F78F12;
+    border-radius: 3px;
+    position: relative;
+    cursor: pointer;
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+
+.content-proyectos .caja4 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content-proyectos .caja4:hover::after{
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+}
+
+.content-proyectos .caja4::after{
+    content: "Landing Eventos";
+    font-size: 2.3rem;
+    color: white;
+    background: rgba(247, 143, 18, 0.6);
+    font-family: 'Lobster', cursive;
+    position: absolute;
+    inset: 0;
+    display: -ms-grid;
+    display: grid;
+    place-items: center;
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+    transition: transform 0.3s, -webkit-transform 0.3s;
+    z-index: 1000;
+}
+
+.content-proyectos .caja5{
+    background-color: #F78F12;
+    border-radius: 3px;
+    position: relative;
+    cursor: pointer;
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+
+.content-proyectos .caja5 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content-proyectos .caja5:hover::after{
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+}
+
+.content-proyectos .caja5::after{
+    content: "Landing Mentor";
+    font-size: 2.3rem;
+    color: white;
+    background: rgba(247, 143, 18, 0.6);
+    font-family: 'Lobster', cursive;
+    position: absolute;
+    inset: 0;
+    display: -ms-grid;
+    display: grid;
+    place-items: center;
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+    transition: transform 0.3s, -webkit-transform 0.3s;
+    z-index: 1000;
+}
+
+.content-proyectos .caja6{
+    background-color: #F78F12;
+    border-radius: 3px;
+    position: relative;
+    cursor: pointer;
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+
+.content-proyectos .caja6 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content-proyectos .caja6:hover::after{
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+}
+
+.content-proyectos .caja6::after{
+    content: "Landing-Page";
+    font-size: 2.3rem;
+    color: white;
+    background: rgba(247, 143, 18, 0.6);
+    font-family: 'Lobster', cursive;
+    position: absolute;
+    inset: 0;
+    display: -ms-grid;
+    display: grid;
+    place-items: center;
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+    transition: transform 0.3s, -webkit-transform 0.3s;
+    z-index: 1000;
+}
+
+.content-proyectos .caja7{
+    background-color: #F78F12;
+    border-radius: 3px;
+    position: relative;
+    cursor: pointer;
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+
+.content-proyectos .caja7 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content-proyectos .caja7:hover::after{
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+}
+
+.content-proyectos .caja7::after{
+    content: "Borders";
+    font-size: 2.3rem;
+    color: white;
+    background: rgba(247, 143, 18, 0.6);
+    font-family: 'Lobster', cursive;
+    position: absolute;
+    inset: 0;
+    display: -ms-grid;
+    display: grid;
+    place-items: center;
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+    transition: transform 0.3s, -webkit-transform 0.3s;
+    z-index: 1000;
+}
+
+.content-proyectos .caja8{
+    background-color: #F78F12;
+    border-radius: 3px;
+    position: relative;
+    cursor: pointer;
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+
+.content-proyectos .caja8 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content-proyectos .caja8:hover::after{
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+}
+
+.content-proyectos .caja8::after{
+    content: "Comentarios";
+    font-size: 2.3rem;
+    color: white;
+    background: rgba(247, 143, 18, 0.6);
+    font-family: 'Lobster', cursive;
+    position: absolute;
+    inset: 0;
+    display: -ms-grid;
+    display: grid;
+    place-items: center;
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+    transition: transform 0.3s, -webkit-transform 0.3s;
+    z-index: 1000;
+}
+
+.content-proyectos .caja9{
+    background-color: #F78F12;
+    border-radius: 3px;
+    position: relative;
+    cursor: pointer;
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+
+.content-proyectos .caja9 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content-proyectos .caja9:hover::after{
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+}
+
+.content-proyectos .caja9::after{
+    content: "Pizza";
+    font-size: 2.3rem;
+    color: white;
+    background: rgba(247, 143, 18, 0.6);
+    font-family: 'Lobster', cursive;
+    position: absolute;
+    inset: 0;
+    display: -ms-grid;
+    display: grid;
+    place-items: center;
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+    transition: transform 0.3s, -webkit-transform 0.3s;
+    z-index: 1000;
+}

@@ -1,0 +1,84 @@
+.contenedor{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url(imagenes/wallpaperbetter.com_2560x1440.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.contenedor .contenido{
+    width: 50%;
+    padding-left: 4.5em;
+    display: flex;
+    align-items: center;
+}
+
+.contenedor .contenido .contenido-texto{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contenedor .contenido .escritura{
+    border-right: 3px solid;
+    margin: 0;
+}
+
+.contenedor .contenido h3{
+    font-size: 1.4em;
+}
+
+.contenedor .contenido h1{
+    color: #F78F12;
+}
+
+.contenedor .contenido h2, h1{
+    display: inline;
+    font-size: 2.7em;
+}
+
+.contenedor .contenido ul{
+    display: flex;
+    list-style: none;
+}
+
+.contenedor .contenido ul li{
+    margin-right: 25px;
+    font-size: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.contenedor .contenido ul li a ion-icon{
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.contenedor .contenido ul li a ion-icon:hover{
+    color: #F78F12;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+
+.contenedor figure{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.contenedor figure img{
+    width: 65%;
+    object-fit: cover;
+    border-radius: 50%;
+}

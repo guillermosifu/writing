@@ -1,0 +1,224 @@
+@media (max-width:900px){
+
+    /*PORTAFOLIO*/
+
+    header nav ul{
+        display: none;
+    }
+
+    header{
+        display: flex;
+        justify-content: center;
+        position: static;
+    }
+
+    header nav{
+        width: 85%;
+        padding-left: 0;
+    }
+
+    header nav h4{
+        margin-left: 0;
+    }
+
+    .contenedor{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        /* border: solid gold; */
+    }
+
+    .contenedor figure{
+        width: 100%;
+        height: 30em;
+        /* border: solid red; */
+    }
+
+    .contenedor figure img{
+        width: 85%;
+        height: 85%;
+        object-fit: contain;
+    }
+
+    .contenedor .contenido{
+        width: 100%;
+        height: 35%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .contenedor .contenido .contenido-texto{
+        width: 85%;
+    }
+
+    .contenedor .contenido .contenido-texto h3{
+        font-size: 0.9em;
+    }
+    
+    .contenedor .contenido .contenido-texto h2, h1{
+        display: inline;
+        font-size: 1.4em;
+    }
+
+    .contenedor .contenido .contenido-texto p{
+        font-size: 14px;
+    }
+
+    .contenedor .contenido ul li a ion-icon{
+        color: #F78F12;
+    }
+
+    /*SOBRE MI*/
+
+    .content{
+        display: block;
+        width: 90%;
+        height: 100%;
+        margin: auto;
+        font-size: 14px;
+    }
+
+    .content div{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-bottom: 20px;
+    }
+
+    .content .caja1{
+        padding-right: 0;
+    }
+
+    .content .caja3{
+        padding-left: 0;
+    }
+
+    .content .caja1 img,
+    .content .caja3 img{
+        width: 15em;
+    }
+
+    /*PROYECTOS*/
+
+    .content-proyectos{
+        width: 85%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(9, 13em);
+        grid-gap: 20px;
+        padding: 0;
+        margin: auto;
+        margin-bottom: 4em;
+    }
+}
+
+@media only screen and (min-width:901px) and (max-width:1215px){
+    .content-proyectos{
+        width: 85%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(5, 13em);
+        grid-gap: 20px;
+        padding: 0;
+        margin: auto;
+        margin-bottom: 4em;
+    }
+}
+
+@media (min-width:2000px){
+
+
+    /*PORTAFOLIO*/
+    header{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    header nav{
+        display: flex;
+        margin: auto;
+        width: 120em;
+        padding: 3em 0;
+    }
+
+    header nav h4{
+        font-size: 1.7em;
+    }
+
+    header nav ul li a{
+        font-size: 1.7em;
+    }
+
+    .contenedor{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .contenedor .contenido,
+    .contenedor figure{
+        width: 60em;      
+        padding-left: 0;
+    }
+
+    .contenedor .contenido .contenido-texto h5{
+        font-size: 2em;
+    }
+
+    .contenedor .contenido .contenido-texto h3{
+        font-size: 3em;
+    }
+    
+    .contenedor .contenido .contenido-texto h2, h1{
+        display: inline;
+        font-size: 4.2em;
+    }
+
+    .contenedor .contenido .contenido-texto p{
+        font-size: 2em;
+    }
+
+    .contenedor .contenido ul li{
+        font-size: 2em;
+    }
+
+    /*SOBRE MI*/
+
+    h2{
+        font-size: 2.5em;
+    }
+
+    .content{
+        width: 120em;
+        height: 35em;
+    }
+
+    .content .caja1 p,
+    .content .caja3 p{
+        font-size: 2em;
+    }
+
+    .content .caja3{
+        padding-left: 2em;
+    }
+
+    /*PROYECTOS*/
+
+    .content-proyectos{
+        width: 120em;
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 20em);
+        grid-gap: 20px;
+        margin: auto;
+        margin-bottom: 5em;
+    }
+}

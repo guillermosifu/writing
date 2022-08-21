@@ -1,0 +1,45 @@
+.content{
+    display: grid;
+    grid-template-columns: 1fr 2px 1fr;
+    grid-template-rows: 1fr;
+    width: 90%;
+    height: 25em;
+    margin: auto;
+    font-size: 15px;
+}
+
+.content div{
+    gap: 10px;
+}
+
+.content .caja1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    display: flex;
+    align-items: center;
+    padding-right: 1em;
+}
+
+.content .caja1 img{
+    width: 52%;
+    border-radius: 20px;
+    
+}
+
+.content .caja2{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background-color: #F78F12;
+}
+
+.content .caja3{
+    display: flex;
+    align-items: center;
+    grid-column: 3/4;
+    grid-row: 1/2;
+    padding-left: 1em;
+}
+
+.content .caja3 img{
+    width: 50%;
+}
